@@ -39,7 +39,7 @@ while (is_sentence(user_sentence) == False):
 clean_sentence = re.sub(r'[^\w\s]', '', user_sentence).lower()
 
 # Split into words
-words_in_sentence = clean_sentence.spilt()
+words_in_sentence = clean_sentence.split()
 
 #Empty list for words and frequencies
 words =[]
