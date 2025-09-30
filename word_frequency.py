@@ -31,9 +31,9 @@ def is_sentence(text):
 
 user_sentence = input("Enter a sentence: ")
 
-while not is_sentence(user_sentence):
-    print("This does not meet the criteria for a sentence.")
-    user_sentence = input("Enter a sentence: ")
+while (is_sentence(user_sentence) == False): 
+    print("This does not meet the criteria for a sentence.") 
+    user_input = input("Enter a sentence: ")
     
 # Remove puncatation 
 cleaned_sentence = re.sub(r'[^\w\s]', '', user_sentence).lower()
