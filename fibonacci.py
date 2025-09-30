@@ -15,6 +15,7 @@ if user_input.isdigit():
     a, b = 0, 1
     for i in range (n_terms):
         print (a, end=" ")
+        a, b = b, a + b
     print ()
   else:
       print ("Please enter a positive integer")
