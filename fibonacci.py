@@ -19,4 +19,5 @@ if user_input.isdigit():
     print ()
   else:
       print ("Please enter a positive integer")
-else; ("Please enter a positive integer")
+else:
+  print ("Please enter a positive integer")
