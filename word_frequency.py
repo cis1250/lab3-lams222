@@ -50,7 +50,7 @@ for word in words_list:
         index = unique_words.index(word)
         frequencies [index] +=1
     else:
-        unique_words.append(word)
+        unique_words.append(word) 
         frequencies.append(1)
 
 print ("\nWord Frequencies")
